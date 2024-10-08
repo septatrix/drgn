@@ -1,0 +1,5 @@
+option('openmp', type : 'feature', value : 'enabled',
+       description : 'Use OpenMP')
+option('libkdumpfile', type : 'feature', value : 'auto',
+       description : 'Build with support for the makedumpfile kernel core ' +
+                     'dump format using libkdumpfile')
